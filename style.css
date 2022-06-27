@@ -70,9 +70,7 @@ padding-bottom: 2rem;
         padding-bottom: unset;
     }
         
-.container{
-    padding: 0 11rem;
-}
+
       
 
         
@@ -157,11 +155,13 @@ padding-bottom: 2rem;
     display:flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .title_composantes{
     font-size: 2rem;
     font-weight: 700;
     padding-top: 8rem;
+    align-self: flex-start;
 }
 
 .title_composantes::after{
@@ -183,59 +183,51 @@ padding-bottom: 2rem;
 }
 
 */
+
+
 .component{
     display:flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 4rem;
+    width: 310px;
+    height : 324px;
+    background-repeat: no-repeat;
+    
 }
+
+.component1{
+
+    background-image: url(/images/pepinieres_d_entreprise.png);
+
+}
+.component2{
+
+    background-image: url(/images/fablab.png);
+
+}
+.component3{
+
+    background-image: url(/images/residents.png);
+
+}
+.component4{
+
+    background-image: url(/images/nos_services.png);
+
+}
+
 .component a{
-    display : block;
+    
     color : white;
     font-weight: 700;
     font-size: 2rem;
     text-align: center;
+    align-self: center;
     width: 100%;
-    height : 100%;
-}
-.component1{
-    display : flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(/images/pepinieres_d_entreprise.png);
-    width: 310px;
-    height : 324px;
-    background-repeat: no-repeat;
-}
-.component2{
-    display : flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(/images/fablab.png);
-    width: 310px;
-    height : 324px;
-    background-repeat: no-repeat;
-}
-.component3{
-    display : flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(/images/residents.png);
-    width: 310px;
-    height : 324px;
-    background-repeat: no-repeat;
-}
-.component4{
-    display : flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(/images/nos_services.png);
-    width: 310px;
-    height : 324px;
-    background-repeat: no-repeat;
-}
+   
 
-
+}
 
 
 
